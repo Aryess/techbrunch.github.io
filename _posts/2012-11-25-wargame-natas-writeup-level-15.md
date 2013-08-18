@@ -15,14 +15,14 @@ J'ai choisi de rédiger le writeup du level 15 pour montrer que la bonne maîtri
 L'épreuve se présent sous la forme d'un simple formulaire permettant de vérifier l'existence d'un utilisateur dans la base de données :
 
 <figure>
-    <img src="images/blog_posts/natas15_1.png"></a>
+    <img src="/images/blog_posts/natas15_1.png"></a>
 	<figcaption>L'utilisateur n'existe pas.</figcaption>
 </figure>
 
 Lorsque que l'on valide le formulaire un message nous indique si oui ou non l'utilisateur est présent :
 
 <figure>
-    <img src="images/blog_posts/natas15_2.png"></a>
+    <img src="/images/blog_posts/natas15_2.png"></a>
     <figcaption>L'utilisateur existe.</figcaption>
 </figure>
 
