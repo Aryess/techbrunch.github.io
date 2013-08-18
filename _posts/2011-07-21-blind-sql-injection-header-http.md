@@ -2,8 +2,8 @@
 layout: post
 title: Blind SQL injection via un header HTTP
 description: Cet article présente une façon originale d'exploiter une faille de type injection SQL.
-categories: hacking
-tags: [blind sqlinjection, header http]
+categories: articles
+tags: [hacking]
 photo: sqli_http_header.png
 comments: true
 ---

@@ -2,8 +2,8 @@
 layout: post
 title: Wargame Natas - Writeup Level 15
 description: La solution du level 15 du wargame Natas qui s'avère être une faille de type blind SQL injection.
-categories: hacking
-tags: [natas, wargame, blind sqlinjection]
+categories: articles
+tags: [hacking]
 photo: overthewire_logo.png
 comments: true
 ---

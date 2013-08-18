@@ -3,8 +3,8 @@ layout: post
 title: Writeup challenge Sogeti
 description: Un petit writeup pour le challenge réalisé à l'occasion d'un "security event" organisé par Sogeti.
 photo: challenge_sogeti.png
-categories: hacking
-tags: [sogeti, ctf]
+categories: articles
+tags: [hacking]
 comments: true
 ---
 
