@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Wargame Natas - Writeup Level 15
-date: 2012-11-25 20:29
-comments: true
-categories: hacking
-photo: overthewire_logo.png
 description: La solution du level 15 du wargame Natas qui s'avère être une faille de type blind SQL injection.
+categories: hacking
+tags: [natas, wargame, blind sqlinjection]
+photo: overthewire_logo.png
+comments: true
 ---
 
 Il y a quelque temps je me suis penché sur le wargame [Natas](http://www.overthewire.org/wargames/natas) présent sur le site  [overthewire.org](http://www.overthewire.org), qui permet de s'initier à la sécurité web. Les épreuves sont pour la plupart assez simples et ne devrait pas poser de problèmes à ceux qui ont l'habitude des épreuves de ce genre là. Pour ceux que ça intéresse j'ai mis à disposition les solutions des épreuves précédentes sur le [wiki](http://wiki.zenk-security.com/doku.php?id=natas_wargame) de ZenkSecurity.

@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Writeup challenge Sogeti
-date: 2013-06-28
-comments: true
-categories:
-- hacking
 description: Un petit writeup pour le challenge réalisé à l'occasion d'un "security event" organisé par Sogeti.
 photo: challenge_sogeti.png
+categories: hacking
+tags: [sogeti, ctf]
+comments: true
 ---
 
 Dans cet article je vais décrire les étapes nécessaire à la résultion d'un challenge réalisé à l'occasion d'un "security event" organisé par Sogeti le 25 juin 2013.
