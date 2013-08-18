@@ -3,7 +3,7 @@ description:      "I'm a french student, I blog about #technology, #security and
 logo:             techbrunch460x460.jpg
 disqus_shortname: blogperso
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://your-website.com
+url:              http://techbrunch.github.io/
 
 # Owner/author information
 owner:
