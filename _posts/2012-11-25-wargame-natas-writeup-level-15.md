@@ -14,13 +14,19 @@ J'ai choisi de rédiger le writeup du level 15 pour montrer que la bonne maîtri
 
 L'épreuve se présent sous la forme d'un simple formulaire permettant de vérifier l'existence d'un utilisateur dans la base de données :
 
-![Natas1](/img/blog_img/natas15_1.png)
+<figure>
+    <img src="images/blog_posts/natas15_1.png"></a>
+	<figcaption>L'utilisateur n'existe pas.</figcaption>
+</figure>
 
 Lorsque que l'on valide le formulaire un message nous indique si oui ou non l'utilisateur est présent :
 
-![Natas1](/img/blog_img/natas15_2.png)
+<figure>
+    <img src="images/blog_posts/natas15_2.png"></a>
+    <figcaption>L'utilisateur existe.</figcaption>
+</figure>
 
-On suppose qu'il va falloir récupérer les informations de l'utilisateur "natas16" puisqu'il existe.
+On suppose qu'il va falloir récupérer les informations de l'utilisateur `natas16` puisqu'il existe.
 
 Jetons un oeil au code source :
 
@@ -58,9 +64,9 @@ if(array_key_exists("username", $_REQUEST)) {
 ?>
 {% endhighlight %}
 
-On apprend tout d'abord que les informations sont stockées dans une table nommée "users" et qui comprend deux colonnes, "username" et "password". Le flag pour le prochain niveau correspond très probablement au mot de passe de l'utilisateur natas16.
+On apprend tout d'abord que les informations sont stockées dans une table nommée `users` et qui comprend deux colonnes, `username` et `password`. Le flag pour le prochain niveau correspond très probablement au mot de passe de l'utilisateur `natas16`.
 
-On remarque qu'il est possible de modifier la requête SQL en manipulant le paramètre "username" puisque ce dernier n'est pas filtré. Malheureusement on ne va pas pouvoir directement récupérer les informations présente en base puisque la seule informations que nous est fournis est si oui ou non l'utilisateur existe.
+On remarque qu'il est possible de modifier la requête SQL en manipulant le paramètre `username` puisque ce dernier n'est pas filtré. Malheureusement on ne va pas pouvoir directement récupérer les informations présente en base puisque la seule informations que nous est fournis est si oui ou non l'utilisateur existe.
 
 Pour arriver à nos fin nous allons utiliser une technique appelé Blind SQL injection, un exemple est plus parlant :
 

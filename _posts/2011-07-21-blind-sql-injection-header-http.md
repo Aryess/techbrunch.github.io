@@ -21,7 +21,7 @@ $req = mysql_query("SELECT login,pwd FROM administrators
 ?>
 {% endhighlight %}
 
-La variable login est correctement contrôlée grâce à la fonction _sanitize()_ :
+La variable login est correctement contrôlée grâce à la fonction `sanitize()` :
 
 {% highlight php %}
 <?php
@@ -36,7 +36,7 @@ function sanitize($param){
 ?>
 {% endhighlight %}
 
-Et le mot de pass est directement converti en MD5, rien à faire de ce coté là. Intéressons nous au paramète "IP" et plus particulièrement à la fonction ip()_.
+Et le mot de pass est directement converti en MD5, rien à faire de ce coté là. Intéressons nous au paramète `IP` et plus particulièrement à la fonction `ip()`.
 
 {% highlight php %}
 <?php
@@ -57,7 +57,7 @@ function ip(){
 }
 {% endhighlight %}
 
-On remarque que la récupération de l'adresse ip repose sur un header HTTP _X_FORWARDED_FOR_ et que le seul contrôle effectué est un _preg_match_ qui permet de vérifier que le paramètre contient bien au moins une adresse ip. Il est alors possible d'injecter du code SQL dans le header HTTP afin de bypasser l'identification voir même d'extraire les informations de la BDD.
+On remarque que la récupération de l'adresse ip repose sur un header `HTTP _X_FORWARDED_FOR` et que le seul contrôle effectué est un `preg_match` qui permet de vérifier que le paramètre contient bien au moins une adresse ip. Il est alors possible d'injecter du code SQL dans le header HTTP afin de bypasser l'identification voir même d'extraire les informations de la BDD.
 
 En modifiant le header par :
 

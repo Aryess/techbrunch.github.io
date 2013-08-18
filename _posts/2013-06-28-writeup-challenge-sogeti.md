@@ -19,7 +19,7 @@ Sur la page d'accueil le message suivant est présent :
 
 Première étape, il va s'intéresser à cette algorithme soit disant inviolable.
 
-Code de la page *add.php* :
+Code de la page `add.php` :
 
 {% highlight php linenos %}
 <?php
@@ -43,7 +43,7 @@ include 'includes/header.php';
 ?>
 {% endhighlight %}
 
-La fonction utlisée pour encoder le message est *cipher_it* et prend en argument le message ainsi qu'un mot de passe pour l'encoder.
+La fonction utlisée pour encoder le message est `cipher_it` et prend en argument le message ainsi qu'un mot de passe pour l'encoder.
 
 Cette même fonction est utilisée pour décoder le message :
 
@@ -102,7 +102,7 @@ Quand on ouvre le fichier avec un éditeur de texte on se retrouve avec que des 
 
     0000 0000 00
 
-C'est donc bien la fonction *xor* qui est utilisée pour chiffrer les messages. On est donc désormais en mesure de créer des fichiers sur le serveur dont on maîtrise le contenu.
+C'est donc bien la fonction `xor` qui est utilisée pour chiffrer les messages. On est donc désormais en mesure de créer des fichiers sur le serveur dont on maîtrise le contenu.
 
 ## Accès à la page d'administration ##
 
@@ -134,7 +134,7 @@ On remarque qu'il n'est possible d'accéder à la page d'administration que si l
 
 ## Gestion des sessions ##
 
-Intéressons nous maintenant aux fichiers *init.php* et *class_session.php* :
+Intéressons nous maintenant aux fichiers `init.php` et `class_session.php` :
 
 {% highlight php linenos %}
 <?php
@@ -209,7 +209,7 @@ On remarque qu'une classe a été crée permettant de redéfinir la manière don
 
     http://217.109.132.34/challenge/sessions/[PHPSESSID]
 
-Si on regarde de plus près la fonction *read*, il s'avère que le paramètre *id*n'est pas du tout contrôlé !
+Si on regarde de plus près la fonction `read`, il s'avère que le paramètre `id` n'est pas du tout contrôlé !
 
 {% highlight php %}
 <?php
@@ -219,7 +219,7 @@ Si on regarde de plus près la fonction *read*, il s'avère que le paramètre *i
 ?>
 {% endhighlight %}
 
-On est donc en mesure de choisir le fichier qui sera utilisé comme session est modifiant le PHPSESSID.
+On est donc en mesure de choisir le fichier qui sera utilisé comme session est modifiant le `PHPSESSID`.
 
 ## Résolution de l'épreuve ##
 
@@ -275,7 +275,7 @@ while(1){
 ?>
 {% endhighlight %}
 
-Le principe est simple je génère une chaine de caractère aléatoire de même taille que le texte à chiffrer et je vérifie que le texte obtenu en sortie est constitué uniquement de caractère imprimables avec la fonction *ctype_print*.
+Le principe est simple je génère une chaine de caractère aléatoire de même taille que le texte à chiffrer et je vérifie que le texte obtenu en sortie est constitué uniquement de caractère imprimables avec la fonction `ctype_print`.
 
 Clés qui fonctionnnent :
 
@@ -295,7 +295,7 @@ Une fois que l'on a la clé il suffit de chiffrer le message une première fois 
 
 On se rend à l'adresse du message chiffré et on retrouve bien notre message d'origine
 
-Il ne reste plus qu'a changé la valeur du *PHPSESSID* pour qu'il pointe sur notre message. Pour cela j'ai utilisé l'extension "Edit this cookie" pour Chrome et j'ai remplacé la valeur du *PHPSESSID* par :
+Il ne reste plus qu'a changé la valeur du `PHPSESSID` pour qu'il pointe sur notre message. Pour cela j'ai utilisé l'extension "Edit this cookie" pour Chrome et j'ai remplacé la valeur du `PHPSESSID` par :
 
     ../pastes/2790cdae372837fbc4347f63990bda54
 
