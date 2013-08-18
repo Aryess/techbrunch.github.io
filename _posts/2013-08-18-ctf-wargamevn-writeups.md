@@ -2,11 +2,9 @@
 layout: post
 title: "CTF wargamevn writeups"
 description: "Un CTF organisé par des vietnamiens, vive google translate ;)"
-date: 2013-07-21
-comments: true
 categories: articles
 tags: [hacking]
-photo:
+comments: true
 ---
 
 ## Stegano 50
@@ -193,7 +191,7 @@ puts http.get('http://challenges.wargame.vn:1337/web100_d6da263d82cd07bd02cecf82
 
 Pour le level 4 on se retrouve avec un commentaire qui laisse penser qu'un header http spécifique doit être présent pour passer au niveau suivant. 
 
-{% hightlight %}
+{% highlight %}
 <!-- if($_SERVER['HTTP_1337']=='1337') -->
 Array
 (
