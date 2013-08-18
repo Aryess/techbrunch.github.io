@@ -47,8 +47,8 @@ blockquote{font-family:'volkhov',serif;font-style:italic;font-size:24px;font-siz
 .footnotes{font-size:14px;font-size:0.875rem;line-height:1.7143;font-family:'source-sans-pro',sans-serif;}
 tt,code,kbd,samp,pre{font-family:'source-code-pro',monospace;}
 p code,li code{font-size:12px;font-size:0.75rem;line-height:2;white-space:nowrap;margin:0 2px;padding:0 5px;border:1px solid #e6e6e6;background-color:#f2f2f2;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
-pre{font-size:12px;font-size:0.75rem;line-height:2;overflow-x:auto;}
-.highlight{margin-bottom:1.5em;font-size:12px;font-size:0.75rem;line-height:2;border:1px solid #dedede;}.highlight pre{position:relative;margin:0;padding:1em;}.highlight pre code{background-color:#073642;}
+pre{font-size:12px;font-size:0.75rem;line-height:2;overflow-x:auto;background-color:#073642;color:#93a1a1;}
+.highlight{margin-bottom:1.5em;font-size:12px;font-size:0.75rem;line-height:2;border:1px solid #dedede;color:#93a1a1;background-color:#073642;}.highlight pre{position:relative;margin:0;padding:1em;}
 .highlight .hll{background-color:#073642;}
 .highlight .c{color:#586e75;font-style:italic;}
 .highlight .err{color:#dc322f;background-color:#e3d2d2;}
