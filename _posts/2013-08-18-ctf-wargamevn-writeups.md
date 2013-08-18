@@ -191,7 +191,7 @@ puts http.get('http://challenges.wargame.vn:1337/web100_d6da263d82cd07bd02cecf82
 
 Pour le level 4 on se retrouve avec un commentaire qui laisse penser qu'un header http spécifique doit être présent pour passer au niveau suivant. 
 
-{% highlight %}
+{% highlight html %}
 <!-- if($_SERVER['HTTP_1337']=='1337') -->
 Array
 (
@@ -232,7 +232,7 @@ puts http.get('http://challenges.wargame.vn:1337/web100_d6da263d82cd07bd02cecf82
 
 Cette fois ci il semblerait qu'un filtrage soit effectué en fonction de l'adresse ip:
 
-{% highlight %}
+{% highlight html %}
 <!-- if($ip="127.0.0.1") fet lag(); -->
 Array
 (
