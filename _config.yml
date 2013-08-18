@@ -1,6 +1,6 @@
 title:            Techbrunch's Blog
-description:      Describe your website here.
-logo:             site-logo.png
+description:      I'm a french student, I blog about #technology, #security and #travelling.
+logo:             techbrunch460x460.jpg
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
 #url:              http://your-website.com
@@ -12,9 +12,9 @@ owner:
   email:          alois.thevenot@gmail.com
   
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        https://twitter.com/TechBrunchFR
-  facebook:       https://www.facebook.com/Techbrunch.fr
-  github:         https://github.com/Techbrunch
+  twitter:        TechBrunchFR
+  facebook:       Techbrunch.fr
+  github:         Techbrunch
   stackexchange:  http://stackexchange.com/users/1556549/techbrunch?tab=accounts
   linkedin:       
   instagram:      
@@ -36,11 +36,9 @@ links:
     url: /about
   - title: Articles
     url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+#  - title: Made Mistakes
+#    url: http://mademistakes.com
+#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Paris
