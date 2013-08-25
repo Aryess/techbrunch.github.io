@@ -11,7 +11,7 @@ Coursera est un site proposant des cours en ligne ouvert et massif (en anglais :
 
 Un avantage de coursera c'est qu'il est possible de télécharges les contenus mis à disposition sur le site afin de pouvoir suivre le cours sans forcément être connecté à internet, une fois les vidéos téléchargés vous pourrez donc les regarder sur votre smartphone ou votre tablette en allant au boulot. Par contre si vous souhaitez faire ça pour l'ensemble des cours cela peut vite devenir fastidieux de télécharger tous ces fichiers individuellement.
 
-Heuresement quelqu'un a créé un script python qui permet de télécharger l'ensemble des contenus mis à disposition sur le site, notamment les vidéos avec leur sous-titres, les quizzes et les pdf. J'ai un peu galéré à faire fonctionner le script sur l'ordinateur que j'utilise actuellement qui est sous windows 8 et donc je me suis dit qu'un petit tutoriel pourrait en intéresser certains.
+Heureusement quelqu'un a créé un script python qui permet de télécharger l'ensemble des contenus mis à disposition sur le site, notamment les vidéos avec leur sous-titres, les quizzes et les pdf. J'ai un peu galéré à faire fonctionner le script sur l'ordinateur que j'utilise actuellement qui est sous windows 8 et donc je me suis dit qu'un petit tutoriel pourrait en intéresser certains.
 
 ## Prérequis
 
@@ -26,10 +26,10 @@ Il va falloir tout d'abord télécharger deux scripts python :
 
 Il suffit ensuite d'exécuter dans l'ordre ces deux scripts.
 
-```bash
+{% highlight bash %}
 python ez_setup.py
 python get-pip.py
-```
+{% endhighlight %}
 
 Vous devriez alors vous retrouver avec deux executables `easy_install.exe` and `pip.exe` dans le dossier `Scritps` du répertoire d'installation de Python (par défaut : `C:\Python27\Scripts`).
 
@@ -37,13 +37,13 @@ Vous devriez alors vous retrouver avec deux executables `easy_install.exe` and `
 
 Maintenant que Pip est utilisable on va pouvoir installé coursera-dl.
 
-```bash
+{% highlight bash %}
 pip.exe install coursera-dl
-```
+{% endhighlight %}
 
 Une fois que le script est installé vous pouvez l'utiliser, pour connaitre le fonctionnement du script vous pouvez utiliser l'option `-h` :
 
-```bash
+{% highlight bash %}
 C:\Python27\Scripts>coursera-dl -h
 usage: coursera-dl-script.py [-h] [-u USERNAME] [-p PASSWORD] [-d DEST_DIR]
                              [-n IGNOREFILES] [-q PARSER] [-x PROXY]
@@ -68,13 +68,13 @@ optional arguments:
   -x PROXY            proxy to use, e.g., foo.bar.com:3125
   --reverse-sections  download and save the sections in reverse order
   --trim-path         Trim path names to fit OS constraints (windows only)
-```
+{% endhighlight %}
 
 Exemple avec la récupération du cours [Startup Engineering](https://www.coursera.org/course/startup) de Stanford :
 
-```
+{% highlight bash %}
 coursera-dl -d / startup-001
-```
+{% endhighlight %}
 
 Note : Vous ne pourrez télécharger les cours que si vous avez au préalable accepté le code d'honneur.
 
