@@ -1,5 +1,5 @@
 title:            Techbrunch's Blog
-description:      "I'm a french student, I blog about #technology, #security and #travelling."
+description:      "I'm a french student, I blog about #technology, #security and #travel."
 logo:             techbrunch460x460.jpg
 disqus_shortname: blogperso
 #Comment out url when working locally to resolve base urls correctly
@@ -10,24 +10,24 @@ owner:
   name:           Aloïs Thévenot
   avatar:         techbrunch460x460.jpg
   email:          alois.thevenot@gmail.com
-  
+
   # Social networking links used in footer. Update and remove as you like.
   twitter:        TechBrunchFR
   facebook:       Techbrunch.fr
   github:         Techbrunch
   stackexchange:  http://stackexchange.com/users/1556549/techbrunch?tab=accounts
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/u/0/106309837737048657127/
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-41781987-1
-google_verify:      
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -59,7 +59,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
