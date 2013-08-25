@@ -7,11 +7,13 @@ tags: [tuto]
 comments: true
 ---
 
-Coursera est un site proposant des cours en ligne ouvert et massif (en anglais : massive open online course, MOOC). Ce site est tout simplement génial vous y trouverez des cours dans un très grand nombre de domaines et d'une très grande qualité. Vous trouveres des cours aussi bien sur la Sécurité informatique que sur la Litérature ou la Psychologie. Je vous recommande d'ailleur le cours [Introduction to Philosophy](https://www.coursera.org/course/introphil) de l'université d'Edimburgh qui est vraiment très intéressant et qui ne demande pas trop d'investissement.
+
+
+Coursera est un site proposant des cours en ligne ouvert et massif (en anglais : massive open online course, MOOC). Ce site est tout simplement génial vous y trouverez des cours dans un très grand nombre de domaines et d'une très grande qualité. Vous trouveres des cours aussi bien sur la [Sécurité informatique](https://www.coursera.org/course/security) que sur la [Litérature](https://www.coursera.org/course/onlinegames) ou la [Psychologie](https://www.coursera.org/course/socialpsychology). Je vous recommande d'ailleur le cours [Introduction to Philosophy](https://www.coursera.org/course/introphil) de l'université d'Edimburgh qui est vraiment très intéressant et qui ne demande pas trop d'investissement.
 
 Un avantage de coursera c'est qu'il est possible de télécharges les contenus mis à disposition sur le site afin de pouvoir suivre le cours sans forcément être connecté à internet, une fois les vidéos téléchargés vous pourrez donc les regarder sur votre smartphone ou votre tablette en allant au boulot. Par contre si vous souhaitez faire ça pour l'ensemble des cours cela peut vite devenir fastidieux de télécharger tous ces fichiers individuellement.
 
-Heureusement quelqu'un a créé un script python qui permet de télécharger l'ensemble des contenus mis à disposition sur le site, notamment les vidéos avec leur sous-titres, les quizzes et les pdf. J'ai un peu galéré à faire fonctionner le script sur l'ordinateur que j'utilise actuellement qui est sous windows 8 et donc je me suis dit qu'un petit tutoriel pourrait en intéresser certains.
+Heureusement quelqu'un a créé un [script python](https://github.com/dgorissen/coursera-dl) qui permet de télécharger l'ensemble des contenus mis à disposition sur le site, notamment les vidéos avec leur sous-titres, les quizzes et les pdf. J'ai un peu galéré à faire fonctionner le script sur l'ordinateur que j'utilise actuellement qui est sous windows 8 et donc je me suis dit qu'un petit tutoriel pourrait en intéresser certains.
 
 ## Prérequis
 
@@ -35,7 +37,7 @@ Vous devriez alors vous retrouver avec deux executables `easy_install.exe` and `
 
 ## Installation et Utilisation de coursera-dl
 
-Maintenant que Pip est utilisable on va pouvoir installé coursera-dl.
+Maintenant que Pip est utilisable on va pouvoir installer coursera-dl.
 
 {% highlight bash %}
 pip.exe install coursera-dl
