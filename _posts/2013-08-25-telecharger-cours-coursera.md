@@ -75,7 +75,7 @@ optional arguments:
 Exemple avec la récupération du cours [Startup Engineering](https://www.coursera.org/course/startup) de Stanford :
 
 {% highlight bash %}
-coursera-dl -d / startup-001
+coursera-dl -u myusername -p mypassword -d / startup-001
 {% endhighlight %}
 
 Note : Vous ne pourrez télécharger les cours que si vous avez au préalable accepté le code d'honneur.
