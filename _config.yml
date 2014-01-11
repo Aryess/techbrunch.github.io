@@ -4,6 +4,7 @@ logo:             techbrunch460x460.jpg
 disqus_shortname: blogperso
 #Comment out url when working locally to resolve base urls correctly
 url:              http://techbrunch.github.io/
+search:           true
 
 # Owner/author information
 owner:
@@ -35,12 +36,8 @@ links:
   - title: Home
     url: /
   - title: About
-    url: /about
+    url: /about/
   - title: Articles
-    url: /articles
-#  - title: Made Mistakes
-#    url: http://mademistakes.com
-#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Paris
@@ -49,7 +46,7 @@ pygments:    true
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /:categories/:title/
 
 kramdown:
   auto_ids: true
@@ -66,4 +63,4 @@ kramdown:
     coderay_css: class
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

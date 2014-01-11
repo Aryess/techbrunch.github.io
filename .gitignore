@@ -5,3 +5,5 @@ _site
 codekit-config.json
 Gemfile.lock
 .c9revisions/
+node_modules
+Gemfile.lock
