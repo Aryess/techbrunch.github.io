@@ -34,9 +34,9 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Home
-    url: /
-  - title: About
-    url: /about/
+    url: 
+  - title: Tags
+    url: tags
   - title: Articles
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
