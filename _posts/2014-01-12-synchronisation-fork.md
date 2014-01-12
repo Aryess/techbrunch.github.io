@@ -60,9 +60,9 @@ On a désormais la branche master distante stockée dans une branche locale, `up
 
 Maintenant que l'on a récupéré les modifications on veux désormais fusionner les changements avec notre branche locale. 
 
-$git checkout master
-# Check out our local master branch
-# Switched to branch 'master'
+    $git checkout master
+    # Check out our local master branch
+    # Switched to branch 'master'
 
     $git merge upstream/master
     # Merge upstream's master into our own
