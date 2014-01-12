@@ -8,7 +8,7 @@ tags: [git]
 comments: true
 ---
 
-Je viens de mette à jour le thême du blog qui utilise [So Simple Theme](https://github.com/mmistakes/so-simple-theme) mais ayant fait quelques modifications il a fallut que je synchronise mon dépôt avec le dépôt original. Pour cela j'ai suivi un tuto créé par Github très clair.
+Je viens de mettre à jour le thême du blog qui utilise [So Simple Theme](https://github.com/mmistakes/so-simple-theme) mais ayant fait quelques modifications il a fallu que je synchronise mon dépôt avec le dépôt original. Pour cela j'ai suivi un tuto créé par Github très clair.
 
 J'en ai fait un article plus pour m'en rappeler que pour autre chose car même un anglophobe ne devrait pas avoir de mal à suivre [l'article original](https://help.github.com/articles/syncing-a-fork) ;)
 
